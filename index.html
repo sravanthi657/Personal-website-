@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stella Sravanthi</title>
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <!-- for collapsed navbar used bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- for social media icons used fontawesome css  (fa fa classes)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- <script type="text/javascript" src="../js/script.js"></script> -->
+
+</head>
+
+<body>
+    <div class="bfnav" id="bfnav">
+        <div class="layer">
+            STELLA SRAVANTHI
+            <script type="text/javascript">
+                var address = window.location.href.split('/');
+                var script_name = address[address.length - 1];
+                if (localStorage[script_name]) {
+                    localStorage[script_name] = parseInt(localStorage[script_name]) + 1;
+                } else {
+                    localStorage[script_name] = 1;
+                }
+            </script>
+
+        </div>
+        <div class="part">
+            <script type="text/javascript">
+                document.write("Visits " + localStorage[script_name]);
+            </script>
+        </div>
+    </div>
+    <nav class="nav navbar-expand-lg navbar-dark bg-dark" style="z-index: 2;" id="navbar">
+
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interests">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./html/ff.html">Feedback</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="content">
+        <img id="stella" src="./img/mee.jpg" alt="">
+        <br>
+        <br>
+        <div class="content-sub">
+            <div id="about">
+                <p>About Me</p>
+                <p>Hey, I'm Stella a second year Undergraduate student IIIT Hyderabad. I love learning all technical and other cool stuff.</p>
+            </div>
+            <div><button class="about-btn btn" onclick="window.location.href='./html/mypg.html'; style='color:white;'">know more..</button> </div>
+            <br> <br><br><br> <br><br>
+            <div id="interests">
+                <p id="interests-head">My interests and projects</p>
+                <p>My projects include most of acdemic works done in form of assignments.I code in C, C++, Python.I also work in Flutter, Django, HTML, CSS and Javascript. Besides academics, I am also interested in art,writing articles,reading and music.</p>
+            </div>
+            <div><button class="interest-btn btn" onclick="window.location.href='./html/projects.html';">read more..</button> </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div id="social">
+
+        <div class="social-content">
+            <br>
+            <h4>Reach me on..</h4>
+
+            <div class="linkz">
+                <a href="https://www.facebook.com/stella.devarakonda">
+                    <span> 
+                        <i class="fab fa-facebook-f footer-img"> 
+
+                        </i> </span>
+                </a>
+                <a href="https://www.linkedin.com/in/stella-sravanthi-devarakonda">
+                    <span>
+                        <i class="fab fa-linkedin-in footer-img"></i>
+                      </span>
+                </a>
+                <a href="https://github.com/sravanthi657">
+                    <span>
+                        <i class="fab fa-github footer-img"></i>
+                      </span>
+                </a>
+            </div>
+            <h4>© 2020 Stella Sravanthi</h4>
+            <br>
+        </div>
+        <a href="#bfnav" class="p" id="goto" style="color: black;">Top <img src="./img/topArrow.png" style="width: 40px; height: 40px; " > </a>
+    </div>
+    <script src='./js/script.js'></script>
+</body>
+
+</html>
