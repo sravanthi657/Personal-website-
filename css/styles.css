@@ -96,9 +96,9 @@ nav a:hover {
 }
 
 #stella {
-    max-width: 15vw;
-    width: 190px;
-    height: 190px;
+    max-width: 18vw;
+    width: 210px;
+    height: 210px;
     height: auto;
     display: block;
     top: 0px;
@@ -179,7 +179,7 @@ nav a:hover {
     text-decoration: none;
     text-align: center;
     font-family: GulimChe;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     padding-bottom: 1%;
     justify-items: center;
@@ -213,7 +213,7 @@ nav a:hover {
     padding: 2%;
     height: auto;
     color: black;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
     margin-top: -40px;
     bottom: 0;
@@ -268,7 +268,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 15px;
+    padding-top: 50px;
 }
 
 .caption {
@@ -284,7 +284,6 @@ nav a:hover {
 .caption span.border {
     background-color: #111;
     color: #fff;
-    margin-top: 40px;
     padding: 12px;
     font-size: 2vw;
     letter-spacing: 8px;
