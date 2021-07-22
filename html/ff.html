@@ -67,7 +67,7 @@
                     </div>
                 
                     <select id="level" required="">
-                    <option selecte="choose" disabled="disapp">Choose level</option>
+                    <option selected="choose" disabled="disapp">Choose level</option>
                     <option value="BEginner"onclick="showInput()">Proficient</option>
                     <option value="Intermediate"onclick="showInput()">Intermediate</option>
                     <option value="Proficient"onclick="showInput()">Beginner</option>
@@ -80,26 +80,28 @@
                             </div>
                             <input type="submit" id="submitButton" value="Go..!">
                 </form>
-                <table style="border: 5; border-color: aliceblue ; " id="feedtb">
-                    <tbody>
-                        <tr>
-                            <th style="text-align: center;" colspan="5"> See the Resopnses</th>
+                <div class="table-responsive">
+                    <table style="border: 5; border-color: aliceblue ; " id="feedtb">
+                        <tbody>
                             <tr>
-                                <th>#</th>
-                                <th>Name</th>
-                                <th> Skills</th>
-                                <th>Level</th>
-                                <th>Comment</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>S</td>
-                                <td>css</td>
-                                <td>Intermediate</td>
-                                <td>Can do better</td>
-                            </tr>
-                    </tbody>
-                </table>
+                                <th style="text-align: center;" colspan="5"> See the Resopnses</th>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Name</th>
+                                    <th> Skills</th>
+                                    <th>Level</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Stella</td>
+                                    <td>css</td>
+                                    <td>Intermediate</td>
+                                    <td>Good</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
                 </div>
                 </div>
             </div>
@@ -107,9 +109,23 @@
             <div id="social">
                 <br>
                 <div class="likez">
-                    <p> Show some love! </p>
-                    <i class="fas fa-heart like-img" id="countl"></i>
-                    <p>Likes : <span id="displaycount">1</span></p>
+                    <p> Show some love! <i class="fas fa-heart like-img" id="countl"></i> <i class="far fa-hand-point-down"></i></p>
+                    <!-- <i class="fas fa-heart like-img" id="countl"></i>
+                    <p>Likes : <span id="displaycount">1</span></p> -->
+                    <!-- LikeBtn.com BEGIN -->
+                    <span class="likebtn-wrapper" data-theme="disk" data-ef_voting="wobble" data-white_label="true" data-identifier="item_1" data-dislike_enabled="false" data-icon_dislike_show="false" data-counter_zero_show="true" data-counter_count="true" data-loader_show="true"></span>
+                    <script>
+                        (function(d, e, s) {
+                            if (d.getElementById("likebtn_wjs")) return;
+                            a = d.createElement(e);
+                            m = d.getElementsByTagName(e)[0];
+                            a.async = 1;
+                            a.id = "likebtn_wjs";
+                            a.src = s;
+                            m.parentNode.insertBefore(a, m)
+                        })(document, "script", "//w.likebtn.com/js/w/widget.js");
+                    </script>
+                    <!-- LikeBtn.com END -->
                 </div>
                 <div class="social-content">
                     <br>
@@ -133,10 +149,15 @@
 						  </span>
                         </a>
                     </div>
-                    <h4>© 2020 Stella Sravanthi</h4>
+                    <h4>&copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> Stella Sravanthi</h4>
                     <br>
                 </div>
-                <a href="#pre-fb" class="p" id="goto" style="color: black;">Top <img src="../img/topArrow.png" style="width: 40px; height: 40px; " > </a>
+                <a href="#pre-fb" class="p" id="goto" style="color: black; cursor: pointer;">Top <img src="../img/topArrow.png" style="width: 40px; height: 40px; cursor: pointer;" > </a>
+                <a href="https://github.com/sravanthi657/Personal-website-" style="font-size: 15px; cursor: pointer; " target="_blank">[source code]</a>
+
             </div>
 </body>
 <footer>

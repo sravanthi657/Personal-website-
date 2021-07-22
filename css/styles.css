@@ -24,7 +24,7 @@ body {
     background-color: rgba(255, 192, 0, 0.2);
     color: #fdfefe;
     padding-top: 450px;
-    padding-bottom: 370px;
+    padding-bottom: 350px;
     font-weight: bold;
     text-align: center;
     font-family: Gill Sans Extrabold;
@@ -40,12 +40,7 @@ body {
 
 .part {
     background-color: rgba(255, 192, 0, 0.2);
-    color: #fdfefe;
-    font-weight: bold;
     text-align: left;
-    font-family: Gill Sans Extrabold;
-    font-size: 26px;
-    font-style: oblique 10deg;
     background-color: #34495e;
     opacity: 0.4;
     width: 100%;
@@ -96,9 +91,9 @@ nav a:hover {
 }
 
 #stella {
-    max-width: 18vw;
-    width: 210px;
-    height: 210px;
+    max-width: 15vw;
+    width: 190px;
+    height: 190px;
     height: auto;
     display: block;
     top: 0px;
@@ -179,7 +174,7 @@ nav a:hover {
     text-decoration: none;
     text-align: center;
     font-family: GulimChe;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     padding-bottom: 1%;
     justify-items: center;
@@ -213,7 +208,7 @@ nav a:hover {
     padding: 2%;
     height: auto;
     color: black;
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
     margin-top: -40px;
     bottom: 0;
@@ -268,7 +263,7 @@ nav a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 .caption {
@@ -284,6 +279,7 @@ nav a:hover {
 .caption span.border {
     background-color: #111;
     color: #fff;
+    margin-top: 40px;
     padding: 12px;
     font-size: 2vw;
     letter-spacing: 8px;
@@ -553,7 +549,11 @@ select {
 
 .like-img {
     color: crimson;
-    font-size: 80px;
+    font-size: 30px;
+}
+
+.likebtn-wrapper {
+    opacity: 1;
 }
 
 
